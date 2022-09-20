@@ -1,0 +1,31 @@
+.emptyContent {
+  margin-top: 1.5rem;
+
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+
+  border-radius: 0.5rem 0.5rem 0 0; 
+  border-top: 1px solid var(--gray-400);
+
+  padding: 4rem;
+}
+
+.emptyText {
+  margin-top: 1rem;
+
+  font-size: 1rem;
+  font-weight: 400;
+
+  color: var(--gray-300);
+}
+
+.emptyText strong {
+  display: block;
+
+  font-weight: 700;
+}
